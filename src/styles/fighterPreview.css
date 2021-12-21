@@ -11,3 +11,16 @@
 .fighter-preview___left {
   align-items: flex-start;
 }
+.fighter-preview___left, .fighter-preview___right {
+  position: relative;
+}
+
+.fighter-preview___info {
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  color: beige;
+  left: -6px;
+  bottom: -90px;
+  list-style: none;
+}
